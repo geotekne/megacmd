@@ -59,9 +59,7 @@ Reminder: Ensure you build the image !
 As an example, if you run the following command  
 
 ```
-docker run -it -v  \`pwd\`/tmp:/tmp  geotekne/megacmd:1.0.0 mega-get https://mega.nz/file/6HAmUJIB#kxywnWU7Q-Pr9lD5johclvXIt2Fq0fxSHIrTnB0_FxM /tmp
-
-
+docker run -it -v  `pwd`/tmp:/tmp  geotekne/megacmd:1.0.0 mega-get https://mega.nz/file/6HAmUJIB#kxywnWU7Q-Pr9lD5johclvXIt2Fq0fxSHIrTnB0_FxM /tmp
 ```
 
 then :
